@@ -107,7 +107,9 @@ input[type="text"]:focus {
 }
 
 footer {
-  flex: 0 0 auto;
-  color: white;
-  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
